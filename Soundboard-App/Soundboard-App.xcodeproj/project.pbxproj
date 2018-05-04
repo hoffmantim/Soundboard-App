@@ -16,6 +16,7 @@
 		CB06849C209BDD080034B4C0 /* Trumpets.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB06849B209BDD080034B4C0 /* Trumpets.wav */; };
 		CB06849E209BDD510034B4C0 /* Crash.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB06849D209BDD510034B4C0 /* Crash.wav */; };
 		CB0684A0209BDDA50034B4C0 /* Laugh.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB06849F209BDDA50034B4C0 /* Laugh.wav */; };
+		CB1E7C4A209CD50B00D5EE48 /* Music.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB1E7C49209CD50B00D5EE48 /* Music.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CB06849B209BDD080034B4C0 /* Trumpets.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Trumpets.wav; sourceTree = "<group>"; };
 		CB06849D209BDD510034B4C0 /* Crash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Crash.wav; sourceTree = "<group>"; };
 		CB06849F209BDDA50034B4C0 /* Laugh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Laugh.wav; sourceTree = "<group>"; };
+		CB1E7C49209CD50B00D5EE48 /* Music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Music.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +64,27 @@
 		CB068486209BA35F0034B4C0 /* Soundboard-App */ = {
 			isa = PBXGroup;
 			children = (
+				CB1E7C48209CD3C500D5EE48 /* Sound Files */,
 				CB068487209BA35F0034B4C0 /* AppDelegate.swift */,
-				CB068489209BA35F0034B4C0 /* ViewController.swift */,
 				CB06848B209BA35F0034B4C0 /* Main.storyboard */,
-				CB06849F209BDDA50034B4C0 /* Laugh.wav */,
-				CB06849D209BDD510034B4C0 /* Crash.wav */,
+				CB068489209BA35F0034B4C0 /* ViewController.swift */,
 				CB06848E209BA3600034B4C0 /* Assets.xcassets */,
-				CB06849B209BDD080034B4C0 /* Trumpets.wav */,
-				CB068499209BDCF90034B4C0 /* Thunder.wav */,
 				CB068490209BA3600034B4C0 /* LaunchScreen.storyboard */,
 				CB068493209BA3600034B4C0 /* Info.plist */,
 			);
 			path = "Soundboard-App";
+			sourceTree = "<group>";
+		};
+		CB1E7C48209CD3C500D5EE48 /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB06849D209BDD510034B4C0 /* Crash.wav */,
+				CB1E7C49209CD50B00D5EE48 /* Music.wav */,
+				CB06849B209BDD080034B4C0 /* Trumpets.wav */,
+				CB068499209BDCF90034B4C0 /* Thunder.wav */,
+				CB06849F209BDDA50034B4C0 /* Laugh.wav */,
+			);
+			path = "Sound Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 				CB06848F209BA3600034B4C0 /* Assets.xcassets in Resources */,
 				CB0684A0209BDDA50034B4C0 /* Laugh.wav in Resources */,
 				CB06849E209BDD510034B4C0 /* Crash.wav in Resources */,
+				CB1E7C4A209CD50B00D5EE48 /* Music.wav in Resources */,
 				CB06848D209BA35F0034B4C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

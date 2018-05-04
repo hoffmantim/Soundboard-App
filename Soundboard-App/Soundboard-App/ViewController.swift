@@ -12,6 +12,9 @@ import AVFoundation
 class ViewController: UIViewController {
 
     var player : AVAudioPlayer?
+    var soundArray = ["Music", "Thunder", "Trumpets", "Crash", "Laugh"]
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,22 +22,22 @@ class ViewController: UIViewController {
     }
 
     @IBAction func soundBtnWasPressed(_ sender: UIButton) {
-        
-        
-        
-        let url = Bundle.main.url(forResource: sender.titleLabel!.text, withExtension: "wav")!
+        playSound(soundFileName: soundArray[sender.tag - 1])
     
+    }
+
+    func playSound(soundFileName: String) {
+        let url = Bundle.main.url(forResource: soundFileName, withExtension: "wav")!
         
         do {
             player = try AVAudioPlayer(contentsOf: url)
             guard let player = player else { return }
             player.prepareToPlay()
             player.play()
-        } catch let error as Error {
+        } catch {
             print(error)
         }
     }
-
 
 }
 
