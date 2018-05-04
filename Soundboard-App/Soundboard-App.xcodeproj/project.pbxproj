@@ -12,6 +12,10 @@
 		CB06848D209BA35F0034B4C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB06848B209BA35F0034B4C0 /* Main.storyboard */; };
 		CB06848F209BA3600034B4C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB06848E209BA3600034B4C0 /* Assets.xcassets */; };
 		CB068492209BA3600034B4C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB068490209BA3600034B4C0 /* LaunchScreen.storyboard */; };
+		CB06849A209BDCF90034B4C0 /* Thunder.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB068499209BDCF90034B4C0 /* Thunder.wav */; };
+		CB06849C209BDD080034B4C0 /* Trumpets.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB06849B209BDD080034B4C0 /* Trumpets.wav */; };
+		CB06849E209BDD510034B4C0 /* Crash.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB06849D209BDD510034B4C0 /* Crash.wav */; };
+		CB0684A0209BDDA50034B4C0 /* Laugh.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB06849F209BDDA50034B4C0 /* Laugh.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		CB06848E209BA3600034B4C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB068491209BA3600034B4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB068493209BA3600034B4C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB068499209BDCF90034B4C0 /* Thunder.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Thunder.wav; sourceTree = "<group>"; };
+		CB06849B209BDD080034B4C0 /* Trumpets.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Trumpets.wav; sourceTree = "<group>"; };
+		CB06849D209BDD510034B4C0 /* Crash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Crash.wav; sourceTree = "<group>"; };
+		CB06849F209BDDA50034B4C0 /* Laugh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Laugh.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,11 @@
 				CB068487209BA35F0034B4C0 /* AppDelegate.swift */,
 				CB068489209BA35F0034B4C0 /* ViewController.swift */,
 				CB06848B209BA35F0034B4C0 /* Main.storyboard */,
+				CB06849F209BDDA50034B4C0 /* Laugh.wav */,
+				CB06849D209BDD510034B4C0 /* Crash.wav */,
 				CB06848E209BA3600034B4C0 /* Assets.xcassets */,
+				CB06849B209BDD080034B4C0 /* Trumpets.wav */,
+				CB068499209BDCF90034B4C0 /* Thunder.wav */,
 				CB068490209BA3600034B4C0 /* LaunchScreen.storyboard */,
 				CB068493209BA3600034B4C0 /* Info.plist */,
 			);
@@ -122,8 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB06849C209BDD080034B4C0 /* Trumpets.wav in Resources */,
 				CB068492209BA3600034B4C0 /* LaunchScreen.storyboard in Resources */,
+				CB06849A209BDCF90034B4C0 /* Thunder.wav in Resources */,
 				CB06848F209BA3600034B4C0 /* Assets.xcassets in Resources */,
+				CB0684A0209BDDA50034B4C0 /* Laugh.wav in Resources */,
+				CB06849E209BDD510034B4C0 /* Crash.wav in Resources */,
 				CB06848D209BA35F0034B4C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
