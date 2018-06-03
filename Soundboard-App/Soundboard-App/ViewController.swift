@@ -7,11 +7,14 @@
 //
 
 import UIKit
-import AVFoundation
+import SwiftySound
 
 class ViewController: UIViewController {
 
-    var player : AVAudioPlayer?
+    //var player : AVAudioPlayer?
+    
+    
+   
     var soundArray = ["Music", "Thunder", "Trumpets", "Crash", "Laugh"]
     
     
@@ -22,22 +25,16 @@ class ViewController: UIViewController {
     }
 
     @IBAction func soundBtnWasPressed(_ sender: UIButton) {
-        playSound(soundFileName: soundArray[sender.tag - 1])
-    
-    }
-
-    func playSound(soundFileName: String) {
-        let url = Bundle.main.url(forResource: soundFileName, withExtension: "wav")!
+  
+        let url = soundArray[sender.tag - 1]
         
-        do {
-            player = try AVAudioPlayer(contentsOf: url)
-            guard let player = player else { return }
-            player.prepareToPlay()
-            player.play()
-        } catch {
-            print(error)
-        }
+        Sound.play(file: url, fileExtension: "wav", numberOfLoops: 0)
+        
+
+        
     }
 
+    
+    
 }
 
